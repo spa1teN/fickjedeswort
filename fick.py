@@ -28,7 +28,7 @@ output = "fick " + line
 
 print(output)
 
-'Closing
+#Closing
 client.create_tweet(text=output)
 
 with open ("stand.txt", 'w') as stand:
