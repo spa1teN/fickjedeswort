@@ -14,7 +14,7 @@ api = tweepy.API(auth)
 #Word-Picking
 file = open("wortliste.txt", encoding="ISO-8859-1")
 
-with open ("/home/pi/fick/stand.txt", "r") as stand:
+with open ("stand.txt", "r") as stand:
     n = int(stand.read())
     print("Stand: " + str(n))
     stand.close()
