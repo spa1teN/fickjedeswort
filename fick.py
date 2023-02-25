@@ -12,7 +12,7 @@ auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_token_
 api = tweepy.API(auth)
 
 #Word-Picking
-file = open("wortliste.txt", encoding="ISO-8859-1")
+file = open("wortliste.txt", encoding="utf-8")
 
 with open("stand.txt", "r") as stand:
     n = int(stand.read())
